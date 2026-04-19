@@ -1,0 +1,14 @@
+# Exclude Environment Variables
+.env
+
+# Exclude Virtual Environments
+venv/
+
+# Exclude Python Cache
+__pycache__/
+
+# Exclude Compiled Binaries
+*.exe
+
+# Exclude Generated Reports
+sast_report.txt
