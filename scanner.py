@@ -1,7 +1,5 @@
 import re
 
-# 1. The Rule Engine (Your TA will love this)
-# Dictionary of Vulnerability Names mapping to their Regex patterns.
 RULES = {
     # 1. Memory Corruption (Classic C++ issues)
     "Dangerous Function (Buffer Overflow)": r"\b(strcpy|strcat|gets|sprintf)\s*\(",
